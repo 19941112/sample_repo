@@ -15,7 +15,7 @@ public class sample {
 	
 	@GetMapping(value = "/publish")
     public String sendMessageToKafkaTopic() {
-        return "App successfully deployed to Azure !";
+        return "Azure Application successfully deployed!";
     }
 	
 
